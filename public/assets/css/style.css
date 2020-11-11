@@ -1,0 +1,36 @@
+.animation {
+  margin: 0;
+  align-items: center;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  opacity: 0.5;
+}
+
+.animation__top {
+  animation: type 3s steps(33);
+}
+
+.animation__middle {
+  animation: type 4s steps(26);
+}
+
+.animation__bottom {
+  animation: type 5s steps(18);
+}
+
+.thunb {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-image {
+  height: 250px;
+  width: 250px;
+}
